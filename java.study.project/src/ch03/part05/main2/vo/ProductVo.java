@@ -4,28 +4,28 @@ import java.util.Arrays;
 
 public class ProductVo {
 
-	/** 전역변수 - 품목번호, 품목명, 단가 */
+	/* 전역변수 - 품목번호, 품목명, 단가 */
 	public String productNo;
 	public String productName;
 	public int price;
 
-	/** 외부에서 호출시 전역변수의 품목번호를 반환하기 위한 함수 */
+	/* 외부에서 호출시 전역변수의 품목번호를 반환하기 위한 함수 */
 	public String getProductNo() {
 		return productNo;
 	}
 
-  /** 외부에서 품목번호를 제공 시 전역변수의 품목번호에 값을 저장하기 위한 함수 */
+    /* 외부에서 품목번호를 제공 시 전역변수의 품목번호에 값을 저장하기 위한 함수 */
 	public void setProductNo(String productNo) {
 		this.productNo = productNo;
 		this.printResult(productNo);
 	}
 
-	/** 외부에서 호출 시 전역변수의 제품명을 반환하기 위한 함수 */
+	/* 외부에서 호출 시 전역변수의 제품명을 반환하기 위한 함수 */
 	public String getProductName() {
 		return productName;
 	}
 
-  /** 외부에서 제품명을 제공 시 전역변수의 제품명에 값을 저장하기 위한 함수 */
+   /* 외부에서 제품명을 제공 시 전역변수의 제품명에 값을 저장하기 위한 함수 */
 	public void setProductName(String productName) {
 		this.productName = productName;
 		this.printResult(productNo);

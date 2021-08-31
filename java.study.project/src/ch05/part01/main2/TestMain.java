@@ -2,8 +2,7 @@ package ch05.part01.main2;
 
 public class TestMain {
 	public static void main(String[] args) {
-
-		/** if문을 이용한 7으로 나눌 때 나머지값 분류 */
+		/* if문을 이용한 7으로 나눌 때 나머지값 분류 */
 		int a = 10;
 		if (a % 7 == 1) {
 			System.out.println("a[" + a + "]는 7로 나눌 때 나머지가 1인 수");

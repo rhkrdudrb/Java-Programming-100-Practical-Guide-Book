@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class TestMain {
 	public static void main(String[] args) {
 
-		/** 마지막 자료추가 */
+		/* 마지막 자료추가 */
 		int[] array = { 1, 2, 3, 4, 5 };
 		int[] array2 = new int[array.length + 1];
 		for (int i = 0; i < array.length; i++) {
@@ -30,7 +30,7 @@ public class TestMain {
 		}
 		System.out.println("중간삽입 7\t: " + Arrays.toString(array3));
 
-		/** 인덱스 1의 자료삭제 */
+		/* 인덱스 1의 자료삭제 */
 		int[] array4 = new int[array3.length - 1];
 		int index2 = 1;
 		int row2 = 0; // 복사할 array의 인덱스
@@ -42,7 +42,7 @@ public class TestMain {
 		}
 		System.out.println("자료삭제 2\t: " + Arrays.toString(array4));
 
-		/** 배열 오름차순 정렬 */
+		/* 배열 오름차순 정렬 */
 		Arrays.sort(array4);
 		System.out.println("자료정렬 \t: " + Arrays.toString(array4));
 

@@ -3,19 +3,19 @@ package ch02.part03.main1.sub1;
 public class TestVarient1 {
 	public static void main(String[] args) {
 
-		/** 변수의 선언 및 생성 */
-		int a = 3;										// 정수형 변수
-		double b = 3.14;						// 실수형 변수
-		boolean c = true;						// 논리형 변수
-		String d = "Hello Java";			// 문자형 변수
 
-		/** 변수 값의 변경 - 선언된 변수는 변경이 가능하다. */
+		int a = 3;									
+		double b = 3.14;						
+		boolean c = true;						
+		String d = "Hello Java";			
+
+		/* 변수 값의 변경 - 선언된 변수는 변경이 가능하다. */
 		a = 4;
 		b = 1.414;
 		c = false;
 		d = "Hello Java2";
 
-		/** 변수 값을 화면에 출력하기 */
+		/* 변수 값을 화면에 출력하기 */
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);

@@ -30,17 +30,17 @@ public class TestMain1{
         product3.price = 4500;
 
         /** 객체에 담긴 속성의 값 확인 */
-        System.out.println("product1의 정보 ----------- ");
+        System.out.println("product1의 정보 ------");
         System.out.println("품목번호["+product1.productNo+"]");
         System.out.println("품목명[" + product1.productName + "]");
         System.out.println("단가[" + product1.price + "]");
 
-        System.out.println("product2의 정보 ----------- ");
+        System.out.println("product2의 정보 ------");
         System.out.println("품목번호["+product2.productNo+"]");
         System.out.println("품목명[" + product2.productName + "]");
         System.out.println("단가[" + product2.price + "]");
 
-        System.out.println("product3의 정보 ----------- ");
+        System.out.println("product3의 정보 ------");
         System.out.println("품목번호["+product3.productNo+"]");
         System.out.println("품목명[" + product3.productName + "]");
         System.out.println("단가[" + product3.price + "]");

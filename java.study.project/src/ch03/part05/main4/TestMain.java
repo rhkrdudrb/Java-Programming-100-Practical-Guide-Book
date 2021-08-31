@@ -5,9 +5,6 @@ import ch03.part05.main4.vo.ProductVo;
 
 public class TestMain {
 	public static void main(String[] args) {
-
-		/** 1. 다음 3개의 품목의 정보를 ProductVo로 만든 후 신규 등록하시오.  */
-
 		// 1) product1 객체생성 및 속성설정
 		ProductVo product1 = new ProductVo();
 		product1.setProductNo("a001");
@@ -34,15 +31,15 @@ public class TestMain {
     service.insertProduct(product2);
     service.insertProduct(product3);
 
-    /** 2. ‘아메리카노’ 품목의 단가를 200원 인상 후 자료를 저장하시오. */
+    /** 2. 아메리카노 품목의 단가를 200원 인상 후 자료를 저장하시오. */
     int price = product1.getPrice() + 200;
     product1.setPrice(price);
     int updateProduct = service.updateProduct(product1);
 
-    /** 3. ‘카페모카’ 품목을 삭제하시오.  */
+    /** 3. 카페모카 품목을 삭제하시오.  */
     service.deleteProduct("a003");
 
-    /** 4. ‘a001’ 품목정보를 조회하시오.  */
+    /** 4. a001 품목정보를 조회하시오.  */
     ProductVo productVo = service.getProduct("a001");
 	}
 }

@@ -4,7 +4,7 @@ import ch03.part08.main1.vo.ProductVo;
 
 public class TestMain {
     public static void main(String[] args){
-       /** 접근 가능한 static 변수의 호출 */
+       /* 접근 가능한 static 변수의 호출 */
        String productNoKor = ProductVo.productNoKor;
        String productNameKor = ProductVo.productNameKor;
        String priceKor = ProductVo.priceKor;
@@ -12,7 +12,7 @@ public class TestMain {
        print("productNameKor",productNameKor);
        print("priceKor",productNoKor);
 
-       /** 접근 가능한 static 변수를 객체1에서 호출 */
+       /* 접근 가능한 static 변수를 객체1에서 호출 */
        ProductVo product1 = new ProductVo();
        String productNoKor1 = product1.productNoKor;
        String productNameKor1 = product1.productNameKor;
@@ -22,7 +22,7 @@ public class TestMain {
        print("priceKor1",productNoKor1);
 
 
-       /** 접근 가능한 static 변수를 객체2에서 호출 */
+       /* 접근 가능한 static 변수를 객체2에서 호출 */
        ProductVo product2 = new ProductVo();
        String productNoKor2 = product2.productNoKor;
        String productNameKor2 = product2.productNameKor;
@@ -32,7 +32,7 @@ public class TestMain {
        print("priceKor2",productNoKor2);
 
 
-       /** static 변수를 변경 */
+       /* static 변수를 변경 */
        product1.productNameKor = "제품명";
        print("product1.productNameKor",product1.productNameKor);
        print("product2.productNameKor",product2.productNameKor);
