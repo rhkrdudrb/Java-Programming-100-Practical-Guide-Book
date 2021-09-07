@@ -11,7 +11,6 @@ public class TestMain {
        print("productNoKor",productNoKor);
        print("productNameKor",productNameKor);
        print("priceKor",productNoKor);
-
        /* 접근 가능한 static 변수를 객체1에서 호출 */
        ProductVo product1 = new ProductVo();
        String productNoKor1 = product1.productNoKor;

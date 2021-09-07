@@ -10,22 +10,22 @@ public class TestReference1 {
 		ProductVo product2 = new ProductVo();
 		ProductVo product3 = new ProductVo();
 
-		/** Product1의 속성 정보 입력 */
+		/* Product1의 속성 정보 입력 */
 		product1.productNo = "a001";
 		product1.productName = "아메리카노";
 		product1.price = 3800;
 
-		/** product2 속성 정보 입력 */
+		/* product2 속성 정보 입력 */
 		product2.productNo = "a002";
 		product2.productName = "카페라떼";
 		product2.price = 4300;
 
-		/** product3 속성 정보 입력 */
+		/* product3 속성 정보 입력 */
 		product3.productNo = "a003";
 		product3.productName = "카페모카";
 		product3.price = 4500;
 
-		/** 객체에 담긴 속성의 값 확인 */
+		/* 객체에 담긴 속성의 값 확인 */
 		System.out.println("product1의 정보 ----------- ");
 		System.out.println("품목번호[" + product1.productNo + "]");
 		System.out.println("품목명[" + product1.productName + "]");
@@ -42,18 +42,18 @@ public class TestReference1 {
 		System.out.println("단가[" + product3.price + "]");
 		System.out.println();
 
-		/** 객체 비교 A – 같은 객체인지 비교하기 */
+		/* 객체 비교 A – 같은 객체인지 비교하기 */
 		boolean compare1 = (product1 == product2);
 		boolean compare2 = (product1 == product3);
 		System.out.println("compare1 == product2 : " + compare1);
 		System.out.println("compare1 == product3 : " + compare2);
 
-		/** 객체 메모리 주소 정보를 복사하기 */
+		/* 객체 메모리 주소 정보를 복사하기 */
 		ProductVo prod1 = product1;
 		ProductVo prod2 = product2;
 		ProductVo prod3 = product3;
 
-		/** 객체 비교 B – 같은 객체인지 비교하기 */
+		/* 객체 비교 B – 같은 객체인지 비교하기 */
 		boolean compare3 = (prod1 == product1);
 		boolean compare4 = (prod2 == product2);
 		boolean compare5 = (prod3 == product3);
@@ -61,7 +61,7 @@ public class TestReference1 {
 		System.out.println("prod2 == product2 : " + compare4);
 		System.out.println("prod3 == product3 : " + compare5);
 
-		/** 타입 비교 */
+		/* 타입 비교 */
 		boolean typeCompare1 = (product1 instanceof ProductVo);
 		boolean typeCompare2 = (product2 instanceof ProductVo);
 		boolean typeCompare3 = (product3 instanceof ProductVo);

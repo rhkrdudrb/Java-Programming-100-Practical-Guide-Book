@@ -9,7 +9,7 @@ public class TestMain {
 
 		/** 배열 오름차순 정렬 - sort() */
 		Arrays.sort(arr);
-
+		System.out.println(Arrays.toString(arr));
 		/** 배열조회 - toString() */
 		String toString = Arrays.toString(arr);
 		System.out.println(toString);
