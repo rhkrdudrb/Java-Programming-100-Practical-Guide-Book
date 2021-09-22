@@ -69,7 +69,9 @@ public class test {
 		map.put("2","value2");
 		map.put("3","value3");
 		System.out.println(map.get("3"));
-	
+		
+		String aa =  "abcdefg";
+		System.out.printf("%s",aa);
 		
 	}
 }
