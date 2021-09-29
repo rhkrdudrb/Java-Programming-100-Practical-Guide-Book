@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class ArrayUtil {
 
-	/* 배열, 자료 → 배열 마지막에 자료추가 된 신규배열 반환 */
+	/** 배열, 자료 → 배열 마지막에 자료추가 된 신규배열 반환 */
 	public static <T> T[] add(T[] arr, T t) {
 		if (arr == null)
 			return null;
@@ -15,7 +15,7 @@ public class ArrayUtil {
 		return newInstance;
 	}
 
-	/* 배열, 인덱스 → 배열 인덱스 자료가 삭제된 신규배열 반환 */
+	/** 배열, 인덱스 → 배열 인덱스 자료가 삭제된 신규배열 반환 */
 	public static <T> T[] remove(T[] arr, int removeIndex) {
 		if (arr == null)
 			return null;
@@ -31,7 +31,7 @@ public class ArrayUtil {
 		return newInstance;
 	}
 
-	/* int 타입 배열, 자료 → 배열 마지막에 자료추가 된 신규배열 반환 */
+	/** int 타입 배열, 자료 → 배열 마지막에 자료추가 된 신규배열 반환 */
 	public static int[] add(int[] arr, int t) {
 		if (arr == null)
 			return null;
@@ -41,7 +41,7 @@ public class ArrayUtil {
 		return arr2;
 	}
 
-	/* int 타입 배열, 인덱스 → 배열 인덱스 자료가 삭제된 신규배열 반환 */
+	/** int 타입 배열, 인덱스 → 배열 인덱스 자료가 삭제된 신규배열 반환 */
 	public static int[] remove(int[] arr, int removeIndex) {
 		if (arr == null)
 			return null;
