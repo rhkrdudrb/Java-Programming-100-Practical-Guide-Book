@@ -34,7 +34,7 @@ public class SortUtil {
 			if(isChanged==false) break;
 		}
 	}
-
+	
 	/** 자료정렬 로직처리를 위한 인터페이스 정의 */
 	public interface Comparator<T> {
 	public int compare(T t1, T t2);
