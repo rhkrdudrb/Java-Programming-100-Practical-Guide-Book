@@ -39,6 +39,7 @@ public class Test {
 				for(String s : data){
 					set01.add(s);
 				}
+				
 			}
 			long time02 = System.currentTimeMillis();
 			System.out.println("【HashSet】 걸린시간 = " + (time02-time01));
