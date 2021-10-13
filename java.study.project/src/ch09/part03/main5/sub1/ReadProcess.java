@@ -19,7 +19,7 @@ public class ReadProcess {
 			}
 			/** 분리하고자 하는 로직 시작 구간 */
 			if (readLine.trim().equals("") == false) {
-				System.out.println(readLine);
+				System.out.println(readLine); 
 			}
 			/** 분리하고자 하는 로직 종료 구간 */
 		}

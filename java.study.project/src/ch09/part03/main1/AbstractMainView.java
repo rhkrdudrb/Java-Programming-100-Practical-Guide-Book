@@ -1,4 +1,4 @@
-package ch09.part03.main1;
+ package ch09.part03.main1;
 
 import javax.swing.JFrame;
 
