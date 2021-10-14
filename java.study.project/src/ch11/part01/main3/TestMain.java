@@ -19,7 +19,6 @@ public class TestMain {
 			/**method()2 함수 재정의*/
 			@Override
 			public void method2(){
-				
 				/**지역변수 name 정의*/
 				 String name = "method2() 함수 지역변수 name"; // [변수4]
 				/**문제1 : 변수1의 값을 콘솔화면에 나타내시오*/

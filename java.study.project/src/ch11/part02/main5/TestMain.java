@@ -18,7 +18,7 @@ public class TestMain {
 		
 		
 		/**문제 다음의 결과값을 코드작성 전에 풀어보세요*/
-		System.out.println(a01.count);
+		System.out.println(a02.count);
 		//풀이! 모드 같은 new(생성자부름) 을하여 객체는 힙 메모리에 저장되기 때모ㅜㄴ에 count++ 을 4번한 결과가 나온다
 	}
 }
